@@ -10,8 +10,6 @@ const Navbar = async () => {
 
   const isAdmin = user?.email === process.env.ADMIN_EMAIL;
 
-  console.log(user, isAdmin);
-
   return (
     <nav className="sticky z-[100] top-0 inset-x-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
       <MaxWidthWrapper className="flex h-14 items-center justify-between border-b border-zinc-100">
