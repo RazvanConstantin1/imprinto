@@ -98,7 +98,11 @@ export default function Home() {
                 alt=""
                 className="absolute w-20 left-10 -bottom-6 select-none"
               />
-              <TShirt className="w-[420px]" imgSrc="/testimonials/1.jpg" />
+              <TShirt
+                className="w-[420px]"
+                imgSrc="/testimonials/1.jpg"
+                bigSize={true}
+              />
             </div>
           </div>
         </MaxWidthWrapper>
