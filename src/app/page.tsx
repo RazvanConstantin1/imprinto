@@ -2,6 +2,7 @@ import { Check, Star } from "lucide-react";
 import MaxWidthWrapper from "./components/MaxWidthWrapper";
 import TShirt from "./components/TShirt";
 import { Icons } from "./components/Icons";
+import { Reviews } from "./components/Reviews";
 
 export default function Home() {
   return (
@@ -190,6 +191,9 @@ export default function Home() {
             </div>
           </div>
         </MaxWidthWrapper>
+
+        {/* Animated review section */}
+        <Reviews />
       </section>
     </div>
   );
