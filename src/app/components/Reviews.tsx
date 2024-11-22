@@ -2,9 +2,9 @@
 
 import { HTMLAttributes, useEffect, useRef, useState } from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { cn } from "@/lib/utils";
-import Tshirt from "./TShirt";
 import { useInView } from "motion/react";
+import { cn } from "@/lib/utils";
+import TShirt from "./TShirt";
 
 const TSHIRTS = [
   "/testimonials/1.jpg",
@@ -97,13 +97,13 @@ function Review({ imgSrc, className, ...props }: ReviewProps) {
   return (
     <div
       className={cn(
-        "animate-fade-in rounded-[2.25rem] bg-white p-6 opacity-0 shadow-xl shadow-slate-900/5  w-[300px]",
+        "animate-fade-in rounded-[2.25rem] bg-white p-6 opacity-0 shadow-xl shadow-slate-900/5 w-[300px]",
         className
       )}
       style={{ animationDelay }}
       {...props}
     >
-      <Tshirt imgSrc={imgSrc} bigSize={false} className="relative" />
+      <TShirt imgSrc={imgSrc} bigSize={false} className="relative" />
     </div>
   );
 }
@@ -156,7 +156,7 @@ function ReviewGrid() {
 
 export function Reviews() {
   return (
-    <MaxWidthWrapper className="relative max-w-5xl">
+    <MaxWidthWrapper className="relative max-w-5xl lg:overflow-visible">
       <img
         aria-hidden="true"
         src="/what-people-are-buying.png"
