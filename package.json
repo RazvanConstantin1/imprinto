@@ -10,16 +10,24 @@
   },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.4.6",
+    "@radix-ui/react-progress": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@uploadthing/react": "^7.1.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "install": "^0.13.0",
     "lucide-react": "^0.460.0",
     "motion": "^11.11.17",
     "next": "15.0.3",
+    "npm": "^10.9.1",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-dropzone": "^14.3.5",
     "tailwind-merge": "^2.5.4",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^7.3.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",
